@@ -133,5 +133,125 @@ html {
   font-size: 62.5%;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  color: white;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.landing-page .above-fold {
+  background-image: url("https://i.imgur.com/l6CuvKu.jpg");
+}
+.landing-page .above-fold header {
+  max-width: 100%;
+  display: flex;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+.landing-page .above-fold header .logo {
+  color: white;
+}
+.landing-page .above-fold header .content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.landing-page .above-fold header .content button {
+  margin-right: 20px;
+}
+.landing-page .above-fold header .content .tele {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+.landing-page .above-fold .hero {
+  display: flex;
+  height: 500px;
+}
+.landing-page .above-fold .hero .content {
+  border: 1px solid red;
+  margin: 100px 0 0 75px;
+  width: 50%;
+}
+.landing-page .above-fold .hero .content h2 {
+  color: white;
+  margin-top: 50px;
+}
+.landing-page .above-fold .hero .content button {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
+  background-color: #EF5E4A;
+}
+.landing-page .above-fold .hero .img {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.landing-page .main-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.landing-page .main-content .how .block {
+  margin: 100px 0;
+}
+.landing-page .main-content .how .first {
+  display: flex;
+}
+.landing-page .main-content .how .first .content {
+  width: 55%;
+}
+.landing-page .main-content .how .first .img {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.landing-page .main-content .how .second {
+  display: flex;
+}
+.landing-page .main-content .how .second .content {
+  order: 2;
+  width: 55%;
+}
+.landing-page .main-content .how .second .img {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.landing-page .main-content .how .third {
+  display: flex;
+}
+.landing-page .main-content .how .third .content {
+  width: 55%;
+}
+.landing-page .main-content .how .third .img {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.landing-page .cta {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background: #FDCEC6;
+}
+.landing-page footer {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background: #2e3842;
+  color: white;
 }
