@@ -135,16 +135,27 @@ html {
 h1 {
   font-size: 5rem;
   color: white;
+  font-family: Roboto;
 }
 h2 {
   font-size: 2.5rem;
+  font-family: Roboto;
+  line-height: 1.5;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #EF5E4A;
+  margin-bottom: 10px;
+  font-family: Roboto;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.5;
+  font-family: Roboto;
+}
+button {
+  font-family: Roboto;
 }
 .landing-page .above-fold {
   background-image: url("https://i.imgur.com/l6CuvKu.jpg");
@@ -155,8 +166,9 @@ p {
   padding: 20px 30px;
   justify-content: space-between;
 }
-.landing-page .above-fold header .logo {
-  color: white;
+.landing-page .above-fold header img {
+  width: 70px;
+  height: auto;
 }
 .landing-page .above-fold header .content {
   display: flex;
@@ -188,14 +200,16 @@ p {
 }
 .landing-page .above-fold header .content .tele:hover {
   text-decoration: underline;
+  text-decoration-color: #EF5E4A;
 }
 .landing-page .above-fold .hero {
   display: flex;
   height: 500px;
+  justify-content: space-between;
 }
 .landing-page .above-fold .hero .content {
   margin: 75px 0 0 75px;
-  width: 40%;
+  width: 50%;
 }
 .landing-page .above-fold .hero .content h2 {
   color: white;
@@ -219,9 +233,16 @@ p {
   outline: 0;
 }
 .landing-page .above-fold .hero .img {
+  max-width: 350px;
+  min-width: 350px;
   width: 45%;
   display: flex;
   justify-content: center;
+  margin-right: 75px;
+}
+.landing-page .above-fold .hero .img img {
+  width: 100%;
+  height: auto;
 }
 .landing-page .main-content {
   max-width: 800px;
@@ -229,18 +250,23 @@ p {
   margin: 0 auto;
 }
 .landing-page .main-content .how .block {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 .landing-page .main-content .how .first {
   display: flex;
 }
 .landing-page .main-content .how .first .content {
   width: 55%;
+  padding-top: 90px;
 }
 .landing-page .main-content .how .first .img {
   width: 45%;
   display: flex;
   justify-content: center;
+}
+.landing-page .main-content .how .first .img img {
+  width: auto;
+  height: 300px;
 }
 .landing-page .main-content .how .second {
   display: flex;
@@ -248,22 +274,32 @@ p {
 .landing-page .main-content .how .second .content {
   order: 2;
   width: 55%;
+  padding: 50px 0 0 40px;
 }
 .landing-page .main-content .how .second .img {
   width: 45%;
   display: flex;
   justify-content: center;
 }
+.landing-page .main-content .how .second .img img {
+  width: auto;
+  height: 250px;
+}
 .landing-page .main-content .how .third {
   display: flex;
 }
 .landing-page .main-content .how .third .content {
   width: 55%;
+  padding-top: 70px;
 }
 .landing-page .main-content .how .third .img {
   width: 45%;
   display: flex;
   justify-content: center;
+}
+.landing-page .main-content .how .third .img img {
+  width: auto;
+  height: 300px;
 }
 .landing-page .cta {
   display: flex;

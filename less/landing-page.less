@@ -11,8 +11,9 @@
             padding: 20px 30px;
             justify-content: space-between;
 
-            .logo {
-                color: white;
+            img {
+                width: 70px;
+                height: auto;
             }
         
             .content {
@@ -43,6 +44,7 @@
                 }
                 .tele:hover {
                     text-decoration: underline;
+                    text-decoration-color: @mainRed;
                 }
             }
         }
@@ -50,10 +52,11 @@
         .hero {
             display: flex;
             height: 500px;
+            justify-content: space-between;
     
             .content {
                 margin: 75px 0 0 75px;
-                width: 40%;
+                width: 50%;
     
                 h2 {
                     color: white;
@@ -77,9 +80,18 @@
             }
     
             .img {
+                max-width: 350px;
+                min-width: 350px;
                 width: 45%;
                 display: flex;
                 justify-content: center;
+                margin-right: 75px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    // margin-right: 150px;
+                }
             }
         }
     }
@@ -91,7 +103,7 @@
 
         .how {
             .block {
-                margin: 100px 0;
+                margin: 50px 0;
             }
     
             .first {
@@ -99,12 +111,18 @@
     
                 .content {
                     width: 55%;
+                    padding-top: 90px;
                 }
     
                 .img {
                     width: 45%;
                     display: flex;
                     justify-content: center;
+
+                    img {
+                        width: auto;
+                        height: 300px;
+                    }
                 }
             }
     
@@ -114,12 +132,18 @@
                 .content {
                     order: 2;
                     width: 55%;
+                    padding: 50px 0 0 40px;
                 }
     
                 .img {
                     width: 45%;
                     display: flex;
                     justify-content: center;
+
+                    img {
+                        width: auto;
+                        height: 250px;
+                    }
                 }
             }
     
@@ -128,12 +152,18 @@
     
                 .content {
                     width: 55%;
+                    padding-top: 70px;
                 }
     
                 .img {
                     width: 45%;
                     display: flex;
                     justify-content: center;
+
+                    img {
+                        width: auto;
+                        height: 300px;
+                    }
                 }
             }
         }
