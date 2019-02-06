@@ -5,47 +5,28 @@
     .above-fold {
         background-image: url("https://i.imgur.com/l6CuvKu.jpg");
 
+        @media @tablet {
+            height: 500px;
+        }
+
         header {
             max-width: 100%;
             display: flex;
             padding: 20px 30px;
-            justify-content: space-between;
+            align-items: center;
 
             img {
                 width: 70px;
                 height: auto;
+
+                @media @tablet {
+                    width: 50px;
+                }
             }
         
-            .content {
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-        
-                button {
-                    .button();
-                    border-radius: 5px;
-                    margin-right: 30px;
-                    padding: 2px 20px;
-                    font-size: 1.6rem;
-                }
-
-                button:hover {
-                    .button-hover;
-                }
-
-                button:focus {
-                    .button-focus;
-                }
-        
-                .tele {
-                    font-size: 2rem;
-                    color: white;
-                    text-decoration: none;
-                }
-                .tele:hover {
-                    text-decoration: underline;
-                    text-decoration-color: @mainRed;
-                }
+            p {
+                color: white;
+                margin-left: 20px;
             }
         }
     
@@ -53,9 +34,13 @@
             display: flex;
             height: 500px;
             justify-content: space-between;
+
+            @media @tablet {
+                height: 409px;
+            }
     
             .content {
-                margin: 75px 0 0 75px;
+                margin: 50px 0 0 75px;
                 width: 50%;
     
                 h2 {
@@ -87,10 +72,14 @@
                 justify-content: center;
                 margin-right: 75px;
 
+                @media @tablet {
+                    max-width: 300px;
+                    min-width: 300px;
+                }
+
                 img {
                     width: 100%;
                     height: auto;
-                    // margin-right: 150px;
                 }
             }
         }
