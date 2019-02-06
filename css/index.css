@@ -568,6 +568,7 @@ button {
 @media (max-width: 850px) {
   .volunteer .above-fold header {
     justify-content: center;
+    padding-bottom: 0;
   }
 }
 .volunteer .above-fold header .left {
@@ -583,14 +584,10 @@ button {
     width: 50px;
   }
 }
-@media (max-width: 850px) {
-  .volunteer .above-fold header .left img {
-    margin-left: 40px;
-  }
-}
 .volunteer .above-fold header .left p {
   color: white;
   margin-left: 20px;
+  text-align: center;
 }
 @media (max-width: 850px) {
   .volunteer .above-fold header .left p {
@@ -612,12 +609,7 @@ button {
     flex-wrap: wrap;
     overflow: hidden;
     justify-content: center;
-    height: 742px;
-  }
-}
-@media (max-width: 600px) {
-  .volunteer .above-fold .hero {
-    height: 742px;
+    height: 762px;
   }
 }
 .volunteer .above-fold .hero .content {
