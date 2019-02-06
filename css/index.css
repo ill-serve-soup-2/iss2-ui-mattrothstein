@@ -191,6 +191,11 @@ button {
   padding: 20px 30px;
   align-items: center;
 }
+@media (max-width: 850px) {
+  .landing-page .above-fold header {
+    justify-content: center;
+  }
+}
 .landing-page .above-fold header img {
   width: 70px;
   height: auto;
@@ -232,7 +237,7 @@ button {
     flex-wrap: wrap;
     width: 600px;
     margin-left: 0;
-    margin: 40px 30px 0 30px;
+    margin: 40px 25px 0 25px;
     text-align: center;
   }
 }
@@ -287,14 +292,28 @@ button {
   margin: 0 auto;
 }
 .landing-page .main-content .how .block {
-  margin: 50px 0;
+  margin: 50px 25px;
 }
 .landing-page .main-content .how .first {
   display: flex;
 }
+@media (max-width: 600px) {
+  .landing-page .main-content .how .first {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .landing-page .main-content .how .first .content {
   width: 55%;
   padding-top: 60px;
+}
+@media (max-width: 600px) {
+  .landing-page .main-content .how .first .content {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+  }
 }
 .landing-page .main-content .how .first .img {
   width: 45%;
@@ -313,10 +332,23 @@ button {
 .landing-page .main-content .how .second {
   display: flex;
 }
+@media (max-width: 600px) {
+  .landing-page .main-content .how .second {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .landing-page .main-content .how .second .content {
   order: 2;
   width: 55%;
   padding: 20px 0 0 40px;
+}
+@media (max-width: 600px) {
+  .landing-page .main-content .how .second .content {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+  }
 }
 .landing-page .main-content .how .second .img {
   width: 45%;
@@ -336,9 +368,23 @@ button {
   display: flex;
   margin-bottom: 75px;
 }
+@media (max-width: 600px) {
+  .landing-page .main-content .how .third {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .landing-page .main-content .how .third .content {
   width: 55%;
   padding-top: 55px;
+}
+@media (max-width: 600px) {
+  .landing-page .main-content .how .third .content {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+  }
 }
 .landing-page .main-content .how .third .img {
   width: 45%;
@@ -365,6 +411,12 @@ button {
 .landing-page .cta p {
   font-size: 3.5rem;
   font-weight: 600px;
+  margin: 0 25px;
+}
+@media (max-width: 850px) {
+  .landing-page .cta p {
+    text-align: center;
+  }
 }
 .landing-page .cta button {
   border-radius: 10px;

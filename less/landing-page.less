@@ -19,7 +19,10 @@
             display: flex;
             padding: 20px 30px;
             align-items: center;
-            // justify-content: center;
+
+            @media @mobile {
+                justify-content: center;
+            }
 
             img {
                 width: 70px;
@@ -61,7 +64,7 @@
                     flex-wrap: wrap;
                     width: 600px;
                     margin-left: 0;
-                    margin: 40px 30px 0 30px;
+                    margin: 40px 25px 0 25px;
                     text-align: center;
                 }
     
@@ -120,15 +123,27 @@
 
         .how {
             .block {
-                margin: 50px 0;
+                margin: 50px 25px;
             }
     
             .first {
                 display: flex;
+
+                @media @sMobile {
+                    flex-direction: column;
+                    align-items: center;
+                }
     
                 .content {
                     width: 55%;
                     padding-top: 60px;
+
+                    @media @sMobile {
+                        order: 1;
+                        width: 100%;
+                        text-align: center;
+                        padding-top: 30px;
+                    }
                 }
     
                 .img {
@@ -149,11 +164,22 @@
     
             .second {
                 display: flex;
+
+                @media @sMobile {
+                    flex-direction: column;
+                    align-items: center;
+                }
     
                 .content {
                     order: 2;
                     width: 55%;
                     padding: 20px 0 0 40px;
+
+                    @media @sMobile {
+                        width: 100%;
+                        text-align: center;
+                        padding-top: 30px;
+                    }
                 }
     
                 .img {
@@ -175,10 +201,22 @@
             .third {
                 display: flex;
                 margin-bottom: 75px;
+
+                @media @sMobile {
+                    flex-direction: column;
+                    align-items: center;
+                }
     
                 .content {
                     width: 55%;
                     padding-top: 55px;
+
+                    @media @sMobile {
+                        order: 1;
+                        width: 100%;
+                        text-align: center;
+                        padding-top: 30px;
+                    }
                 }
     
                 .img {
@@ -209,7 +247,12 @@
 
         p {
             font-size: 3.5rem;
-            font-weight: 600px
+            font-weight: 600px;
+            margin: 0 25px;
+
+            @media @mobile {
+                text-align: center;
+            }
         }
 
         button {
