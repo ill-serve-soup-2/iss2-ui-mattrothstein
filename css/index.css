@@ -240,7 +240,7 @@ button {
   width: 45%;
   display: flex;
   justify-content: center;
-  margin-right: 75px;
+  margin: 0 75px;
 }
 @media (max-width: 1000px) {
   .landing-page .above-fold .hero .img {
@@ -265,7 +265,7 @@ button {
 }
 .landing-page .main-content .how .first .content {
   width: 55%;
-  padding-top: 90px;
+  padding-top: 60px;
 }
 .landing-page .main-content .how .first .img {
   width: 45%;
@@ -276,13 +276,18 @@ button {
   width: auto;
   height: 300px;
 }
+@media (max-width: 1000px) {
+  .landing-page .main-content .how .first .img img {
+    height: 250px;
+  }
+}
 .landing-page .main-content .how .second {
   display: flex;
 }
 .landing-page .main-content .how .second .content {
   order: 2;
   width: 55%;
-  padding: 50px 0 0 40px;
+  padding: 20px 0 0 40px;
 }
 .landing-page .main-content .how .second .img {
   width: 45%;
@@ -293,12 +298,17 @@ button {
   width: auto;
   height: 250px;
 }
+@media (max-width: 1000px) {
+  .landing-page .main-content .how .second .img img {
+    height: 208px;
+  }
+}
 .landing-page .main-content .how .third {
   display: flex;
 }
 .landing-page .main-content .how .third .content {
   width: 55%;
-  padding-top: 70px;
+  padding-top: 55px;
 }
 .landing-page .main-content .how .third .img {
   width: 45%;
@@ -308,6 +318,11 @@ button {
 .landing-page .main-content .how .third .img img {
   width: auto;
   height: 300px;
+}
+@media (max-width: 1000px) {
+  .landing-page .main-content .how .third .img img {
+    height: 250px;
+  }
 }
 .landing-page .cta {
   display: flex;
