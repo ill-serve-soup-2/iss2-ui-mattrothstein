@@ -9,6 +9,11 @@
             height: 500px;
         }
 
+        @media @mobile {
+            height: 800px;
+        }
+
+
         header {
             max-width: 100%;
             display: flex;
@@ -39,9 +44,26 @@
             @media @tablet {
                 height: 409px;
             }
+
+            @media @mobile {
+                flex-wrap: wrap;
+                overflow: hidden;
+                justify-content: center;
+                height: 711px;
+            }
     
             .content {
+                .test;
                 margin: 50px 0 0 30px;
+                
+                @media @mobile {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    width: 600px;
+                    margin-left: 0;
+                    margin: 40px 30px 0 30px;
+                }
     
                 h2 {
                     color: white;
@@ -80,6 +102,12 @@
                 img {
                     width: 100%;
                     height: auto;
+
+
+                @media @mobile {
+                    height: 500px;
+                    width: auto;
+                }
                 }
             }
         }
