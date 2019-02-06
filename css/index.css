@@ -191,24 +191,64 @@ button {
   display: flex;
   padding: 20px 30px;
   align-items: center;
+  justify-content: space-between;
 }
 @media (max-width: 850px) {
   .landing-page .above-fold header {
     justify-content: center;
   }
 }
-.landing-page .above-fold header img {
+.landing-page .above-fold header .left {
+  display: flex;
+  align-items: center;
+}
+.landing-page .above-fold header .left img {
   width: 70px;
   height: auto;
 }
 @media (max-width: 1000px) {
-  .landing-page .above-fold header img {
+  .landing-page .above-fold header .left img {
     width: 50px;
   }
 }
-.landing-page .above-fold header p {
+@media (max-width: 850px) {
+  .landing-page .above-fold header .left img {
+    margin-left: 40px;
+  }
+}
+.landing-page .above-fold header .left p {
   color: white;
   margin-left: 20px;
+}
+@media (max-width: 850px) {
+  .landing-page .above-fold header .left p {
+    display: none;
+  }
+}
+.landing-page .above-fold header .right button {
+  border-radius: 10px;
+  color: white;
+  background-color: #EF5E4A;
+  cursor: pointer;
+  border: 1px solid #EF5E4A;
+  font-size: 1.4rem;
+  border-color: white;
+  background: rgba(255, 0, 0, 0);
+  padding: 5px 10px;
+  margin-right: 95px;
+}
+@media (max-width: 1000px) {
+  .landing-page .above-fold header .right button {
+    margin: 0 71px;
+  }
+}
+@media (max-width: 850px) {
+  .landing-page .above-fold header .right button {
+    margin: 0 40px;
+  }
+}
+.landing-page .above-fold header .right button:focus {
+  outline: 0;
 }
 .landing-page .above-fold .hero {
   display: flex;

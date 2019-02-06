@@ -19,23 +19,61 @@
             display: flex;
             padding: 20px 30px;
             align-items: center;
+            justify-content: space-between;
 
             @media @mobile {
                 justify-content: center;
             }
 
-            img {
-                width: 70px;
-                height: auto;
+            .left {
+                display: flex;
+                align-items: center;
+                
+                img {
+                    width: 70px;
+                    height: auto;
+    
+                    @media @tablet {
+                        width: 50px;
+                    }
 
-                @media @tablet {
-                    width: 50px;
+                    @media @mobile {
+                        margin-left: 40px;
+                    }
+                }
+            
+                p {
+                    color: white;
+                    margin-left: 20px;
+
+                    @media @mobile {
+                        display: none;
+                    }
                 }
             }
-        
-            p {
-                color: white;
-                margin-left: 20px;
+
+            .right {
+                button {
+                    .button;
+                    font-size: 1.4rem;
+                    border-color: white;
+                    background: rgba(255,0,0,0);
+                    padding: 5px 10px;
+                    margin-right: 95px;
+
+                    @media @tablet {
+                        margin: 0 71px;
+                    }
+
+                    @media @mobile {
+                        margin: 0 40px;
+                    }
+                }
+                
+                button:focus {
+                    .button-focus;
+                }
+
             }
         }
     
