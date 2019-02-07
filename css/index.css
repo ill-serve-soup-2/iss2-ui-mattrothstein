@@ -791,7 +791,7 @@ button {
 }
 .volunteer .main-content .how .first .content {
   width: 50%;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 @media (max-width: 600px) {
   .volunteer .main-content .how .first .content {
