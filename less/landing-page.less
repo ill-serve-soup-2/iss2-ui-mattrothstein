@@ -18,7 +18,7 @@
             max-width: 1300px;
             margin: 0 auto;
             display: flex;
-            padding: 20px 30px;
+            padding: 20px 50px;
             align-items: center;
             justify-content: space-between;
 
@@ -59,8 +59,13 @@
                     font-size: 1.4rem;
                     border-color: white;
                     background: rgba(255,0,0,0);
-                    padding: 5px 10px;
+                    padding: 5px 15px;
                     margin-right: 95px;
+
+                    &:hover {
+                        background: rgb(0, 0, 0);
+                        transform: scale(.98);
+                    }
 
                     @media @tablet {
                         margin: 0 71px;
@@ -101,7 +106,7 @@
             }
     
             .content {
-                margin: 50px 0 0 30px;
+                margin: 50px 0 0 50px;
                 
                 @media @mobile {
                     display: flex;
@@ -140,7 +145,7 @@
                 width: 45%;
                 display: flex;
                 justify-content: center;
-                margin: 0 30px;
+                margin: 0 50px;
 
                 @media @tablet {
                     max-width: 300px;
@@ -168,7 +173,7 @@
         left: 50%;
 
         transform: translate(-50%, -50%);
-        
+
         @media @tablet {
             top: 500px;
         }
@@ -229,7 +234,7 @@
                 }
     
                 .content {
-                    width: 55%;
+                    width: 50%;
                     padding-top: 60px;
 
                     @media @sMobile {
@@ -306,7 +311,7 @@
                 }
     
                 .content {
-                    width: 55%;
+                    width: 50%;
                     padding-top: 55px;
 
                     @media @sMobile {

@@ -190,7 +190,7 @@ button {
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
-  padding: 20px 30px;
+  padding: 20px 50px;
   align-items: center;
   justify-content: space-between;
 }
@@ -235,8 +235,12 @@ button {
   font-size: 1.4rem;
   border-color: white;
   background: rgba(255, 0, 0, 0);
-  padding: 5px 10px;
+  padding: 5px 15px;
   margin-right: 95px;
+}
+.landing-page .above-fold header .right button:hover {
+  background: #000000;
+  transform: scale(0.98);
 }
 @media (max-width: 1000px) {
   .landing-page .above-fold header .right button {
@@ -277,7 +281,7 @@ button {
   }
 }
 .landing-page .above-fold .hero .content {
-  margin: 50px 0 0 30px;
+  margin: 50px 0 0 50px;
 }
 @media (max-width: 850px) {
   .landing-page .above-fold .hero .content {
@@ -305,8 +309,8 @@ button {
   font-size: 2rem;
 }
 .landing-page .above-fold .hero .content button:hover {
-  color: #EF5E4A;
-  background-color: white;
+  background-color: #ec3b23;
+  transform: scale(0.98);
 }
 .landing-page .above-fold .hero .content button:focus {
   outline: 0;
@@ -317,7 +321,7 @@ button {
   width: 45%;
   display: flex;
   justify-content: center;
-  margin: 0 30px;
+  margin: 0 50px;
 }
 @media (max-width: 1000px) {
   .landing-page .above-fold .hero .img {
@@ -403,7 +407,7 @@ button {
   }
 }
 .landing-page .main-content .how .first .content {
-  width: 55%;
+  width: 50%;
   padding-top: 60px;
 }
 @media (max-width: 600px) {
@@ -479,7 +483,7 @@ button {
   }
 }
 .landing-page .main-content .how .third .content {
-  width: 55%;
+  width: 50%;
   padding-top: 55px;
 }
 @media (max-width: 600px) {
@@ -533,8 +537,8 @@ button {
   font-size: 2rem;
 }
 .landing-page .cta button:hover {
-  color: #EF5E4A;
-  background-color: white;
+  background-color: #ec3b23;
+  transform: scale(0.98);
 }
 .landing-page .cta button:focus {
   outline: 0;
@@ -566,7 +570,7 @@ button {
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
-  padding: 20px 30px;
+  padding: 20px 50px;
   align-items: center;
   justify-content: space-between;
 }
@@ -608,12 +612,17 @@ button {
   font-size: 1.4rem;
   border-color: white;
   background: rgba(255, 0, 0, 0);
-  padding: 5px 10px;
-  margin-right: 148px;
+  padding: 5px 15px;
+  margin-right: 140px;
+}
+.volunteer .above-fold header .right button:hover {
+  background: #000000;
+  transform: scale(0.98);
 }
 @media (max-width: 1000px) {
   .volunteer .above-fold header .right button {
     margin: 0 125px;
+    margin-right: 118px;
   }
 }
 @media (max-width: 850px) {
@@ -645,7 +654,7 @@ button {
   }
 }
 .volunteer .above-fold .hero .content {
-  margin: 50px 0 0 30px;
+  margin: 50px 0 0 50px;
 }
 @media (max-width: 850px) {
   .volunteer .above-fold .hero .content {
@@ -673,8 +682,8 @@ button {
   font-size: 2rem;
 }
 .volunteer .above-fold .hero .content button:hover {
-  color: #EF5E4A;
-  background-color: white;
+  background-color: #ec3b23;
+  transform: scale(0.98);
 }
 .volunteer .above-fold .hero .content button:focus {
   outline: 0;
@@ -685,7 +694,7 @@ button {
   width: 45%;
   display: flex;
   justify-content: center;
-  margin: 0 30px;
+  margin: 0 50px;
 }
 @media (max-width: 1000px) {
   .volunteer .above-fold .hero .img {
@@ -765,7 +774,7 @@ button {
   }
 }
 .volunteer .main-content .how .first .content {
-  width: 55%;
+  width: 50%;
   padding-top: 60px;
 }
 @media (max-width: 600px) {
@@ -824,8 +833,8 @@ button {
   font-size: 2rem;
 }
 .volunteer .cta button:hover {
-  color: #EF5E4A;
-  background-color: white;
+  background-color: #ec3b23;
+  transform: scale(0.98);
 }
 .volunteer .cta button:focus {
   outline: 0;
