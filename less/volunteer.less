@@ -241,13 +241,12 @@
                 }
     
                 .img {
-                    width: 50%;
                     display: flex;
                     justify-content: center;
-                    margin-left: 50px;
+                    margin-left: 100px;
 
                     @media @sMobile {
-                        margin-right: 23px;
+                        margin-left: 0;
                     }
 
                     img {
@@ -316,3 +315,34 @@
     }
 }
 
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+// .typed-cursor{
+//    opacity: 0;
+// 	display: none;
+// }
+
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

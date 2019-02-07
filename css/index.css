@@ -802,14 +802,13 @@ button {
   }
 }
 .volunteer .main-content .how .first .img {
-  width: 50%;
   display: flex;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 @media (max-width: 600px) {
   .volunteer .main-content .how .first .img {
-    margin-right: 23px;
+    margin-left: 0;
   }
 }
 .volunteer .main-content .how .first .img img {
@@ -870,4 +869,47 @@ button {
 }
 .volunteer footer p {
   font-size: 1.2rem;
+}
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+  content: '|';
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+/*Removes cursor that comes with typed.js*/
+/*Custom cursor animation*/
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
