@@ -24,6 +24,7 @@
 
             @media @mobile {
                 justify-content: center;
+                padding-bottom: 0;
             }
 
             .left {
@@ -64,7 +65,14 @@
 
                     &:hover {
                         background: rgb(0, 0, 0);
-                        transform: scale(.98);
+                    }
+
+                    &:active {
+                        .button-active;
+                    }
+
+                    &:focus {
+                        .button-focus;
                     }
 
                     @media @tablet {
@@ -75,11 +83,6 @@
                         margin: 0 40px;
                     }
                 }
-                
-                button:focus {
-                    .button-focus;
-                }
-
             }
         }
     
@@ -98,11 +101,7 @@
                 flex-wrap: wrap;
                 overflow: hidden;
                 justify-content: center;
-                height: 742px;
-            }
-
-            @media @sMobile {
-                height: 742px;
+                height: 761px;
             }
     
             .content {
@@ -128,15 +127,21 @@
                     margin: 40px 0;
                     padding: 10px 50px;
                     font-size: 2rem;
+
+                    &:hover {
+                        .button-hover;
+                    }
+    
+                    &:active {
+                        .button-active;
+                    }
+    
+                    &:focus {
+                        .button-focus;
+                    }
                 }
 
-                button:hover {
-                    .button-hover;
-                }
 
-                button:focus {
-                    .button-focus;
-                }
             }
     
             .img {
@@ -181,16 +186,13 @@
         @media @mobile {
             top: 800px;
         }
-
-        @media @sMobile {
-            left: 44.5%;
-        }
+    }
 
         a {
             color: @mainRed;
             text-decoration: none;
         }
-    }
+
     .bounce {
         animation: bounce 2s infinite;
         -webkit-animation: bounce 2s infinite;
@@ -364,15 +366,25 @@
             margin: 20px 0;
             padding: 10px 50px;
             font-size: 2rem;
+
+            &:hover {
+                .button-hover;
+            }
+
+            &:active {
+                .button-active;
+            }
+
+            &:focus {
+                .button-focus;
+            }
         }
 
-        button:hover {
-            .button-hover;
-        }
 
-        button:focus {
-            .button-focus;
-        }
+
+
+
+
     }
 
     // Footer
@@ -388,4 +400,3 @@
         }
     }
 }
-

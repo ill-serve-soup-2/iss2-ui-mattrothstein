@@ -197,6 +197,7 @@ button {
 @media (max-width: 850px) {
   .landing-page .above-fold header {
     justify-content: center;
+    padding-bottom: 0;
   }
 }
 .landing-page .above-fold header .left {
@@ -240,7 +241,15 @@ button {
 }
 .landing-page .above-fold header .right button:hover {
   background: #000000;
-  transform: scale(0.98);
+}
+.landing-page .above-fold header .right button:active {
+  transition-duration: 0.6s;
+  transition: all 0.6s ease-out;
+  box-shadow: 0 3px 15px -2px rgba(0, 0, 0, 0.85);
+  transform: scale(0.9);
+}
+.landing-page .above-fold header .right button:focus {
+  outline: 0;
 }
 @media (max-width: 1000px) {
   .landing-page .above-fold header .right button {
@@ -251,9 +260,6 @@ button {
   .landing-page .above-fold header .right button {
     margin: 0 40px;
   }
-}
-.landing-page .above-fold header .right button:focus {
-  outline: 0;
 }
 .landing-page .above-fold .hero {
   max-width: 1300px;
@@ -272,12 +278,7 @@ button {
     flex-wrap: wrap;
     overflow: hidden;
     justify-content: center;
-    height: 742px;
-  }
-}
-@media (max-width: 600px) {
-  .landing-page .above-fold .hero {
-    height: 742px;
+    height: 761px;
   }
 }
 .landing-page .above-fold .hero .content {
@@ -310,7 +311,12 @@ button {
 }
 .landing-page .above-fold .hero .content button:hover {
   background-color: #ec3b23;
-  transform: scale(0.98);
+}
+.landing-page .above-fold .hero .content button:active {
+  transition-duration: 0.6s;
+  transition: all 0.6s ease-out;
+  box-shadow: 0 3px 15px -2px rgba(0, 0, 0, 0.85);
+  transform: scale(0.9);
 }
 .landing-page .above-fold .hero .content button:focus {
   outline: 0;
@@ -355,12 +361,7 @@ button {
     top: 800px;
   }
 }
-@media (max-width: 600px) {
-  .landing-page .arrow {
-    left: 44.5%;
-  }
-}
-.landing-page .arrow a {
+.landing-page a {
   color: #EF5E4A;
   text-decoration: none;
 }
@@ -538,7 +539,12 @@ button {
 }
 .landing-page .cta button:hover {
   background-color: #ec3b23;
-  transform: scale(0.98);
+}
+.landing-page .cta button:active {
+  transition-duration: 0.6s;
+  transition: all 0.6s ease-out;
+  box-shadow: 0 3px 15px -2px rgba(0, 0, 0, 0.85);
+  transform: scale(0.9);
 }
 .landing-page .cta button:focus {
   outline: 0;
@@ -596,7 +602,6 @@ button {
 .volunteer .above-fold header .left p {
   color: white;
   margin-left: 20px;
-  text-align: center;
 }
 @media (max-width: 850px) {
   .volunteer .above-fold header .left p {
@@ -617,7 +622,15 @@ button {
 }
 .volunteer .above-fold header .right button:hover {
   background: #000000;
-  transform: scale(0.98);
+}
+.volunteer .above-fold header .right button:active {
+  transition-duration: 0.6s;
+  transition: all 0.6s ease-out;
+  box-shadow: 0 3px 15px -2px rgba(0, 0, 0, 0.85);
+  transform: scale(0.9);
+}
+.volunteer .above-fold header .right button:focus {
+  outline: 0;
 }
 @media (max-width: 1000px) {
   .volunteer .above-fold header .right button {
@@ -629,9 +642,6 @@ button {
   .volunteer .above-fold header .right button {
     margin: 0 40px;
   }
-}
-.volunteer .above-fold header .right button:focus {
-  outline: 0;
 }
 .volunteer .above-fold .hero {
   max-width: 1300px;
@@ -650,7 +660,7 @@ button {
     flex-wrap: wrap;
     overflow: hidden;
     justify-content: center;
-    height: 762px;
+    height: 761px;
   }
 }
 .volunteer .above-fold .hero .content {
@@ -683,7 +693,12 @@ button {
 }
 .volunteer .above-fold .hero .content button:hover {
   background-color: #ec3b23;
-  transform: scale(0.98);
+}
+.volunteer .above-fold .hero .content button:active {
+  transition-duration: 0.6s;
+  transition: all 0.6s ease-out;
+  box-shadow: 0 3px 15px -2px rgba(0, 0, 0, 0.85);
+  transform: scale(0.9);
 }
 .volunteer .above-fold .hero .content button:focus {
   outline: 0;
@@ -716,6 +731,7 @@ button {
   position: absolute;
   top: 577px;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 @media (max-width: 1000px) {
   .volunteer .arrow {
@@ -834,7 +850,12 @@ button {
 }
 .volunteer .cta button:hover {
   background-color: #ec3b23;
-  transform: scale(0.98);
+}
+.volunteer .cta button:active {
+  transition-duration: 0.6s;
+  transition: all 0.6s ease-out;
+  box-shadow: 0 3px 15px -2px rgba(0, 0, 0, 0.85);
+  transform: scale(0.9);
 }
 .volunteer .cta button:focus {
   outline: 0;
