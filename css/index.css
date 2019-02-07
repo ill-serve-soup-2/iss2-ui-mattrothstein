@@ -599,6 +599,31 @@ button {
     display: none;
   }
 }
+.volunteer .above-fold header .right button {
+  border-radius: 10px;
+  color: white;
+  background-color: #EF5E4A;
+  cursor: pointer;
+  border: 1px solid #EF5E4A;
+  font-size: 1.4rem;
+  border-color: white;
+  background: rgba(255, 0, 0, 0);
+  padding: 5px 10px;
+  margin-right: 148px;
+}
+@media (max-width: 1000px) {
+  .volunteer .above-fold header .right button {
+    margin: 0 125px;
+  }
+}
+@media (max-width: 850px) {
+  .volunteer .above-fold header .right button {
+    margin: 0 40px;
+  }
+}
+.volunteer .above-fold header .right button:focus {
+  outline: 0;
+}
 .volunteer .above-fold .hero {
   max-width: 1300px;
   margin: 0 auto;

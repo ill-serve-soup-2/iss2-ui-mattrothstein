@@ -50,6 +50,30 @@
                     }
                 }
             }
+
+            .right {
+                button {
+                    .button;
+                    font-size: 1.4rem;
+                    border-color: white;
+                    background: rgba(255,0,0,0);
+                    padding: 5px 10px;
+                    margin-right: 148px;
+
+                    @media @tablet {
+                        margin: 0 125px;
+                    }
+
+                    @media @mobile {
+                        margin: 0 40px;
+                    }
+                }
+                
+                button:focus {
+                    .button-focus;
+                }
+
+            }
         }
     
         .hero {
