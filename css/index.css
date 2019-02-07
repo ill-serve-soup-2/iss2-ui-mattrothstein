@@ -187,7 +187,8 @@ button {
   }
 }
 .landing-page .above-fold header {
-  max-width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
   padding: 20px 30px;
   align-items: center;
@@ -251,6 +252,8 @@ button {
   outline: 0;
 }
 .landing-page .above-fold .hero {
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
   height: 500px;
   justify-content: space-between;
@@ -335,7 +338,8 @@ button {
 .landing-page .arrow {
   position: absolute;
   top: 577px;
-  left: 46.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @media (max-width: 1000px) {
   .landing-page .arrow {
@@ -559,7 +563,8 @@ button {
   }
 }
 .volunteer .above-fold header {
-  max-width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
   padding: 20px 30px;
   align-items: center;
@@ -595,6 +600,8 @@ button {
   }
 }
 .volunteer .above-fold .hero {
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
   height: 500px;
   justify-content: space-between;
@@ -674,7 +681,7 @@ button {
 .volunteer .arrow {
   position: absolute;
   top: 577px;
-  left: 46.5%;
+  left: 50%;
 }
 @media (max-width: 1000px) {
   .volunteer .arrow {
@@ -684,11 +691,6 @@ button {
 @media (max-width: 850px) {
   .volunteer .arrow {
     top: 800px;
-  }
-}
-@media (max-width: 600px) {
-  .volunteer .arrow {
-    left: 44.5%;
   }
 }
 .volunteer .arrow a {
