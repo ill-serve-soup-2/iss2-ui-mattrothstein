@@ -1,4 +1,4 @@
-
+// For landing page
 
 var app = document.getElementById('app');
 
@@ -7,11 +7,11 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter.typeString('manual inventory?')
-    .pauseFor(2500)
+    .pauseFor(1500)
     .deleteAll()
     .typeString('wasting money?')
-    .pauseFor(2500)
+    .pauseFor(1500)
     .deleteChars(6)
     .typeString('time?')
-    .pauseFor(2500)
+    .pauseFor(1500)
     .start();
