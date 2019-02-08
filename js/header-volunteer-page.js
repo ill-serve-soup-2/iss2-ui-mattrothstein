@@ -15,3 +15,5 @@ typewriter.typeString('volunteer?')
     .typeString('your community?')
     .pauseFor(1500)
     .start();
+
+

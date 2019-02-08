@@ -15,3 +15,19 @@ typewriter.typeString('manual inventory?')
     .typeString('time?')
     .pauseFor(1500)
     .start();
+
+    // P Animation
+let pTags = document.querySelectorAll('p'); //select all p tags
+const pTagsArray = Array.from(pTags); // turn nodelist into array
+
+pTagsArray.map(p => {
+    p.addEventListener('mouseover', p => {
+        TweenMax.to(p.currentTarget, 1, {scale: 1.1, ease:AudioBufferSourceNode.easeOut})
+    })
+})
+
+pTagsArray.map(p => {
+    p.addEventListener('mouseout', p => {
+        TweenMax.to(p.currentTarget, 1, {scale: 1, ease:AudioBufferSourceNode.easeOut})
+    })
+})
