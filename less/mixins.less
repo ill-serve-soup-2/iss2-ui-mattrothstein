@@ -1,0 +1,35 @@
+.test() {
+    border: 1px solid red;
+}
+
+// Buttons
+.button() {
+    border-radius: 10px;
+    color: white;
+    background-color: @mainRed;
+    cursor: pointer;
+    border: 1px solid @mainRed;  
+}
+
+.button-hover() {
+    background-color: rgb(236, 59, 35);
+}
+
+.button-active() {
+    transition-duration: .6s;
+    transition: all .6s ease-out;  
+    box-shadow: 0 3px 15px -2px rgba(0,0,0,.85);
+    transform: scale(.9);
+}
+
+.button-focus() {
+    outline:0;
+}
+
+// Media
+@tablet: ~"(max-width: 1000px)";
+@mobile: ~"(max-width: 850px)";
+@sMobile: ~"(max-width: 600px)";
+
+
+
